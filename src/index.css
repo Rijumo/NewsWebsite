@@ -1,0 +1,117 @@
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+nav{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+background-color: lightblue;
+padding: 9px;
+box-sizing: border-box;
+
+}
+ul a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color:brown;
+  font-weight: bolder;
+
+}
+nav h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: brown;
+}
+.serachbar input{
+width: 250px;
+padding: 15px;
+border-radius: 25px;
+color: black;
+margin: 15px;
+font-size: larger;
+}
+.serachbar button{
+  width: 100px;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  background-color: blue;
+}
+.categoryBtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+.categoryBtn_item2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.categoryBtn_item2 button{
+  width: 160px;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  background-color:darkred;
+  font-size: larger;
+  font-weight: bolder;
+
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+
+}
+.carditem{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 650px;
+
+  margin: 20px;
+  background-color:gainsboro;
+  border-radius: 15px;
+}
+.carditem img{
+  width: 90%;
+  height: 350px;
+  padding: 24px;
+}
+ .carditem a{
+  text-decoration: none;
+  margin: 10px 0px 0px 20px ;
+  font-size: larger;
+  font-weight: bolder;
+ }
+ .carditem button{
+  width: 160px;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  background-color: darkred;
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 170px;
+ }
+ .carditem p{
+  font-weight: bolder;
+  margin: 15px;
+ }
